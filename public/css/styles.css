@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav-bar ul li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    padding: 2px 7px 2px 7px;
+    margin: 0 80px 0 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.nav-bar a:hover{
+    color: white;
+}
+
+.header{
+    background-image: url("../assets/images/fondo.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+}
+.header p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin-top: 30px;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.products img{
+    width: 300px;
+    margin: 30px 30px 0 30px;
+    border-radius: 10%;
+}
+
+.products img:hover{
+    opacity: 30%;
+}
+
+.products .imagen .titulo{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contacto{
+    margin-top: 30px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacto a i{
+    margin: 0 70px;
+    font-size: 50px;
+}
+
+.contacto a i:hover{
+    color: white;
+}
+footer{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer p{
+    margin-left: 10px;
+}
+
+
+
+
+
